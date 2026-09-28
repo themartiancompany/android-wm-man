@@ -26,7 +26,7 @@
 #    along with this program.
 #    If not, see <https://www.gnu.org/licenses/>.
 
-_PROJECT=android-activity-utils
+_PROJECT=android-wm-utils
 PREFIX ?= /usr/local
 DOC_DIR=$(DESTDIR)$(PREFIX)/share/doc/$(_PROJECT)
 DATA_DIR=$(DESTDIR)$(PREFIX)/share/$(_PROJECT)
