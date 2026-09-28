@@ -28,44 +28,30 @@
 
 
 ========================
-activity-launch
+windows-list
 ========================
 
 --------------------------------------------------------------
-Activity Launch
+Returns a list of open windows
 --------------------------------------------------------------
-:Version: activity-launch |version|
+:Version: windows-list |version|
 :Manual section: 1
 
 
 Synopsis
 ========
 
-activity-launch *[options]* *app* *activity*
+windows-list *[options]*
 
 
 Description
 ===========
 
-Launches Android activities.
+Returns a list of open windows.
 
 
 Options
 =======
-
--m mode              How to switch activity.
--L length            For how much time keep focus on
-                     target activity
--p poll              Time interval between focus checks.
--d                   Dims the display while the target
-                     application is in focus.
--t                   Disables the touchscreen (depending
-                     on device and system you could
-                     be enable to re-enable them without
-                     a reboot).
-
-Application options
-=====================
 
 -h                   Display help.
 -c                   Enable color output
@@ -91,5 +77,6 @@ See also
 * displayctl
 * powerctl
 * sissystemctl
+* android-display-dim
 
 .. include:: variables.rst

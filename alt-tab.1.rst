@@ -28,47 +28,80 @@
 
 
 ========================
-activity-focused
+alt-tab
 ========================
 
 --------------------------------------------------------------
-Focused Activity
+Switches to a previously focused application.
 --------------------------------------------------------------
-:Version: activity-focused |version|
+:Version: alt-tab |version|
 :Manual section: 1
 
 
 Synopsis
 ========
 
-activity-focused *[options]*
+alt-tab *[options]*
 
 
 Description
 ===========
 
-Get currently focused Android activity.
+Switches to a previously focused application.
 
 
 Options
 =======
 
--m method            Method to obtain activity name.
-                     It can be 'root'.
+-N windows
 
+  To which previously focused window
+  from the current one to go back.
+                   
+
+-m method
+
+  Method to perform the switch.
+  All require administrative permissions.
+  It can be:
+
+  - input
+
+    It performs the action using
+    the 'input' command,
+
+  - activity-launch
+
+    It retrieves open windows list
+    and runs the corresponding past
+    activity. It avoids one to
+    concretely press alt+tab but it
+    may not work depending on the
+    activity.
+ 
 
 Application options
 =====================
+                              
+-h
 
--h                   Display help.
--c                   Enable color output
--v                   Enable verbose output
+  Display help.
+
+
+-c
+
+  Enable color output
+
+
+-v
+
+  Enable verbose output
 
 
 Bugs
 ====
 
-https://github.com/themartiancompany/android-activity-utils/-/issues
+https://github.com/themartiancompany/android-wm-utils/-/issues
 
 
 Copyright
@@ -76,13 +109,16 @@ Copyright
 
 Copyright Pellegrino Prevete. AGPL-3.0.
 
+
 See also
 ========
 
+* windows-list
 * activity-launch
 * bbrightnessctl
 * displayctl
 * powerctl
 * sissystemctl
+* android-display-dim
 
 .. include:: variables.rst
