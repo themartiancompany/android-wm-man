@@ -61,7 +61,7 @@ Options
 Bugs
 ====
 
-https://github.com/themartiancompany/android-activity-utils/-/issues
+https://github.com/themartiancompany/android-wm/-/issues
 
 
 Copyright
@@ -72,6 +72,7 @@ Copyright Pellegrino Prevete. AGPL-3.0.
 See also
 ========
 
+* alt-tab
 * activity-focused
 * bbrightnessctl
 * displayctl

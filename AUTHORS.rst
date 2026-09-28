@@ -28,7 +28,7 @@
 
 
 ==============================================
-Android Activity Utilities manuals authors
+Android Window Manager manuals authors
 ==============================================
 
 * Pellegrino Prevete

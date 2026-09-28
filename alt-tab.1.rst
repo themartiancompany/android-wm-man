@@ -101,7 +101,7 @@ Application options
 Bugs
 ====
 
-https://github.com/themartiancompany/android-wm-utils/-/issues
+https://github.com/themartiancompany/android-wm/-/issues
 
 
 Copyright

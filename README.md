@@ -24,10 +24,10 @@
 [comment]: <> (with this program.)
 [comment]: <> (If not, see <https://www.gnu.org/licenses/>.)
 
-# Android Window Manager Utilities (`android-wm-utils`) manuals
+# Android Window Manager (`android-wm`) manuals
 
-The [`android-wm-utils`](
-  https://github.com/themartiancompany/android-wm-utils)
+The [`android-wm`](
+  https://github.com/themartiancompany/android-wm)
 manuals.
 
 ## Installation
@@ -45,7 +45,7 @@ the uncensorable
 [Ur](
   https://github.com/themartiancompany/ur)
 user repository and application store as
-`android-wm-utils`.
+`android-wm`.
 The source code is published on the
 [Ethereum Virtual Machine File System](
   https://github.com/themartiancompany/evmfs)
@@ -55,14 +55,14 @@ To install it from there just type
 
 ```bash
 ur \
-  android-wm-utils
+  android-wm
 ```
 
 A censorable HTTP Github mirror of the recipe published there,
 containing a full list of the software dependencies needed to run the
 tools is hosted on
-[android-wm-utils-ur](
-  https://github.com/themartiancompany/android-wm-utils-ur).
+[android-wm-ur](
+  https://github.com/themartiancompany/android-wm-ur).
 Be aware the mirror could go offline any time as Github and more
 in general all HTTP resources are inherently unstable and censorable.
 
