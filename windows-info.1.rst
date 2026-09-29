@@ -53,22 +53,43 @@ Returns information about open windows.
 Options
 =======
 
--m mode              Method to use to retrieve
-                     open windows information.
-                     It can be 'root'.
+-m mode
 
--o output-format     Windows information output
-                     format. It can be:
-                     - plain:
-                         It returns 'dumpsys'
-                         output as it is.
-                     - json:
-                         It returns the information
-                         in JSON format.
+  Method to use to retrieve
+  open windows information.
+  It can be
+  
+  - root
 
--h                   Display help.
--c                   Enable color output
--v                   Enable verbose output
+
+-o output-format
+
+  Windows information output
+  format. It can be:
+
+  - plain
+
+    It returns 'dumpsys'
+    output as it is.
+
+  - json
+
+    It returns the information
+    in JSON format.
+
+
+-h
+
+  Display help.
+
+-c
+
+  Enable color output.
+
+
+-v
+
+  Enable verbose output.
 
 
 Bugs
