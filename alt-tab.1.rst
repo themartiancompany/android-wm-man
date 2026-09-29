@@ -113,6 +113,7 @@ Copyright Pellegrino Prevete. AGPL-3.0.
 See also
 ========
 
+* windows-info
 * windows-list
 * activity-launch
 * bbrightnessctl

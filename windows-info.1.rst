@@ -28,13 +28,13 @@
 
 
 ========================
-windows-list
+windows-info
 ========================
 
 --------------------------------------------------------------
-Returns a list of open windows
+Returns information about open windows
 --------------------------------------------------------------
-:Version: windows-list |version|
+:Version: windows-info |version|
 :Manual section: 1
 
 
@@ -47,11 +47,24 @@ windows-list *[options]*
 Description
 ===========
 
-Returns a list of open windows.
+Returns information about open windows.
 
 
 Options
 =======
+
+-m mode              Method to use to retrieve
+                     open windows information.
+                     It can be 'root'.
+
+-o output-format     Windows information output
+                     format. It can be:
+                     - plain:
+                         It returns 'dumpsys'
+                         output as it is.
+                     - json:
+                         It returns the information
+                         in JSON format.
 
 -h                   Display help.
 -c                   Enable color output
@@ -72,8 +85,8 @@ Copyright Pellegrino Prevete. AGPL-3.0.
 See also
 ========
 
-* windows-info
 * alt-tab
+* windows-list
 * activity-focused
 * bbrightnessctl
 * displayctl
