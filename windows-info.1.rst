@@ -57,9 +57,7 @@ Options
 
   Method to use to retrieve
   open windows information.
-  It can be
-  
-  - root
+  It can be 'root'.
 
 
 -o output-format
