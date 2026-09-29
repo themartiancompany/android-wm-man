@@ -89,4 +89,14 @@ install-man:
 	    "$(MAN_DIR)/man1/$${_file%.rst}"; \
 	done
 
-.PHONY: build-man install install-doc install-man
+uninstall: uninstall-man
+
+uninstall-man:
+
+	for _file in $(MAN_FILES); do \
+	  rm \
+	    -vrf \
+	    "$(MAN_DIR)/man1/$${_file%.rst}"; \
+	done
+
+.PHONY: build-man install install-doc install-man uninstall uninstall-man
