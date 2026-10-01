@@ -68,12 +68,14 @@ Options
   - plain
 
     It returns 'dumpsys'
-    output as it is.
+    output as it is, so
+    also, complete.
 
   - json
 
-    It returns the information
-    in JSON format.
+    It returns almost all of
+    'dumpsys window windows'
+    information in JSON format.
 
 
 -h
@@ -106,6 +108,7 @@ See also
 
 * alt-tab
 * windows-list
+* activities-info
 * activity-focused
 * bbrightnessctl
 * displayctl
